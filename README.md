@@ -4,8 +4,10 @@ Your Focus Sanctuary. Live Demo: https://zen-flow-sigma.vercel.app
 ZenFlow is a minimalist, all-in-one productivity dashboard designed to help you find your "flow state." Whether you are tracking a workout, managing daily tasks, or deep-working with a Pomodoro timer, ZenFlow keeps everything in one clean, dark-themed interface.
 
 ✨ Key Features
-🏋️‍♂️ Gym Tracker & Music Center
-Workout Tracking: Log sets and reps for Chest, Back, Legs, Arms, Shoulders, and Cardio.
+
+🏋️‍♂️ Gym Tracker & Music Center : Workout Tracking: Log sets and reps for Chest, Back, Legs, Arms, Shoulders, and Cardio.
+
+
 
 Integrated Music: Paste your favorite Spotify or YouTube Music playlist directly into the tracker to stay in the zone.
 
