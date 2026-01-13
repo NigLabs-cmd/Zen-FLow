@@ -141,9 +141,9 @@ const addTask = async (e) => {
               <span className={`flex-1 font-medium ${task.is_completed ? 'line-through text-gray-400' : ''}`}>
                 {task.title}
               </span>
-              <button onClick={() => deleteTask(task.id)} className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-500/10 rounded-lg transition-all"
+              <button onClick={() => deleteTask(task.id)} className="p-2 text-gray-400 hover:text-red-500 transition-all"
                aria-label="Delete task">
-                <Trash2 size={18} className="stroke-current" />
+                <Trash2 size={18} />
               </button>
             </motion.div>
           ))}
