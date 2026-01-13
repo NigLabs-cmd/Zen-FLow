@@ -1,16 +1,41 @@
-# React + Vite
+🧘‍♂️ ZenFlow
+Your Focus Sanctuary. Live Demo: https://zen-flow-sigma.vercel.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ZenFlow is a minimalist, all-in-one productivity dashboard designed to help you find your "flow state." Whether you are tracking a workout, managing daily tasks, or deep-working with a Pomodoro timer, ZenFlow keeps everything in one clean, dark-themed interface.
 
-Currently, two official plugins are available:
+✨ Key Features
+🏋️‍♂️ Gym Tracker & Music Center
+Workout Tracking: Log sets and reps for Chest, Back, Legs, Arms, Shoulders, and Cardio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Integrated Music: Paste your favorite Spotify or YouTube Music playlist directly into the tracker to stay in the zone.
 
-## React Compiler
+Rest Timer: Built-in stopwatch to manage your intervals between sets.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🍅 Pomodoro Focus Timer
+Customizable focus sessions based on the Pomodoro Technique.
 
-## Expanding the ESLint configuration
+Visual progress indicator to help you stay committed to your deep-work blocks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Smart Task Manager
+Organize your day with a sleek, interactive To-Do list.
+
+Persistent data storage so your tasks are there when you return.
+
+🔐 Secure Authentication
+Powered by Supabase Magic Links.
+
+No passwords required—just enter your email and receive a secure login link.
+
+🛠️ Tech Stack
+Frontend: React.js + Vite
+
+Styling: Tailwind CSS
+
+Database & Auth: Supabase
+
+Icons: Lucide React
+
+Deployment: Vercel
+
+📣 Feedback
+Your feedback helps make ZenFlow better! Use the floating "Feedback" button in the app to submit suggestions or report bugs.
