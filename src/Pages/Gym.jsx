@@ -70,7 +70,7 @@ const handleLoadMusic = () => {
                 className={`px-4 py-2 rounded-xl text-sm font-semibold transition ${
                   activePart === part 
                   ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30' 
-                  : 'bg-white dark:bg-black border border-gray-200 dark:border-white/10'
+                  : 'bg-white/5 border border-white/10 text-gray-400'
                 }`}
               >
                 {part}

@@ -135,7 +135,7 @@ const addTask = async (e) => {
                 {task.is_completed ? (
                   <CheckCircle2 className="text-green-500" />
                 ) : (
-                  <Circle className="text-gray-300 group-hover:text-indigo-500" />
+                  <Circle className="text-white/20 group-hover:text-indigo-400 transition-colors" />
                 )}
               </button>
               <span className={`flex-1 font-medium ${task.is_completed ? 'line-through text-gray-400' : ''}`}>
