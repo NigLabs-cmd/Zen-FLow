@@ -49,13 +49,13 @@ const Login = () => {
             <div className="relative group">
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-indigo-500 transition-colors" size={20} />
               <input
-                type="email"
-                placeholder="Enter your email..."
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 focus:bg-white/20 transition-all outline-none text-lg text-white"
-                required
-              />
+  type="email"
+  placeholder="Your email address"
+  value={email}
+  onChange={(e) => setEmail(e.target.value)}
+  className="w-full p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10 outline-none focus:border-indigo-500 transition text-gray-900 dark:text-white"
+  required
+/>
             </div>
 
             <motion.button
