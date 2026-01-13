@@ -129,7 +129,7 @@ const addTask = async (e) => {
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="flex items-center gap-4 p-4 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl group shadow-sm"
+              className="flex items-center gap-4 bg-[#121212] p-4 rounded-2xl border border-white/10 mb-3 shadow-lg"
             >
               <button onClick={() => toggleComplete(task.id, task.is_completed)}>
                 {task.is_completed ? (
