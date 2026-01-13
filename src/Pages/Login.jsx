@@ -48,14 +48,20 @@ const Login = () => {
           <form onSubmit={handleLogin} className="space-y-6">
             <div className="relative group">
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-indigo-500 transition-colors" size={20} />
-              <input
-  type="email"
-  placeholder="Your email address"
-  value={email}
-  onChange={(e) => setEmail(e.target.value)}
-  className="w-full p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10 outline-none focus:border-indigo-500 transition text-gray-900 dark:text-white"
-  required
-/>
+              <div className="relative group">
+  {/* The Icon - Positioned absolutely so it stays on the left */}
+  <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-indigo-500 transition-colors" size={20} />
+  
+  <input
+    type="email"
+    placeholder="Your email address"
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    /* Added pl-12 to push text away from the icon and text-gray-900 for visibility */
+    className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white border border-gray-200 outline-none focus:border-indigo-500 transition text-gray-900 placeholder:text-gray-400 shadow-sm"
+    required
+  />
+</div>
             </div>
 
             <motion.button
