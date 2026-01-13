@@ -114,7 +114,7 @@ const addTask = async (e) => {
           placeholder="What needs to be done?"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
-          className="flex-1 p-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:border-indigo-500 outline-none transition"
+          className="w-full p-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-500 outline-none focus:border-indigo-500 transition"
         />
         <button className="bg-indigo-600 text-white p-4 rounded-2xl hover:bg-indigo-700 transition">
           <Plus />

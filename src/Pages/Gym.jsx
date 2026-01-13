@@ -61,7 +61,7 @@ const handleLoadMusic = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Side: Timer & Workout Control */}
-        <div className="bg-gray-50 dark:bg-white/5 p-8 rounded-[2.5rem] border border-gray-100 dark:border-white/10 shadow-xl">
+        <div className="bg-[#121212] p-8 rounded-[2.5rem] border border-white/10 shadow-xl">
           <div className="flex gap-2 mb-8 flex-wrap">
             {BODY_PARTS.map(part => (
               <button
